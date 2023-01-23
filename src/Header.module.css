@@ -1,0 +1,30 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.header {
+    width: 1300px;
+    margin: 41px 20px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.header nav{
+    margin-right: 55px;
+}
+.header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.header nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 15px;
+    text-decoration: none;
+}
