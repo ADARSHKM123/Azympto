@@ -14,8 +14,8 @@ function Header() {
       <img className={classes.webLogo} src={logo} alt=""></img>
       <div className={classes.mobViewHead}>
         <img className={classes.hamburger} src={hamburger} alt="" />
-       <img src={mobileLogo} alt="" />
-       <img src={cart} alt="" />
+        <img src={mobileLogo} alt="" />
+        <img src={cart} alt="" />
       </div>
       <nav>
         <ul>

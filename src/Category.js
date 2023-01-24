@@ -17,14 +17,14 @@ function Category() {
             <p>- The Categories</p>
             <p>Browse by Category</p>
             <div className={classes.mobileCategory}>
-            <div className={classes.mobileCategoryCards}>
-             <div className={classes.categoryCard}><img src={onsale} alt=''></img><span>On Sale</span></div>
-             <div className={classes.categoryCard}><img src={Featured} alt=''></img><span>Featured</span></div>
-            </div>
-             <div className={classes.scrolling}>
-                 <img src={leftarrow} alt="" />
-                 <img src={rightarrow} alt="" />
-             </div>
+                <div className={classes.mobileCategoryCards}>
+                    <div className={classes.categoryCard}><img src={onsale} alt=''></img><span>On Sale</span></div>
+                    <div className={classes.categoryCard}><img src={Featured} alt=''></img><span>Featured</span></div>
+                </div>
+                <div className={classes.scrolling}>
+                    <img src={leftarrow} alt="" />
+                    <img src={rightarrow} alt="" />
+                </div>
             </div>
             <div className={classes.categoryList}>
                 <div className={classes.categoryCard}><img src={onsale} alt=''></img><span>On Sale</span></div>
