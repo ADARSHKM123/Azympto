@@ -99,15 +99,126 @@
 }
 
 
-@media (max-width: 1920px) {}
 
-@media (max-width: 1750px) {}
+@media (max-width: 600px) {
+    .footer {
+        margin-top: 98px;
+        /* margin: 100px 0px 70px 59px; */
+        width: 530px;
+        height: 245px;
+        display: inline-block;
+        grid-template-columns: 0px 0px 0px;
+        padding-bottom: 20px;
+    }
+    .extraMob{
+        display: block;
+    }
+    .majorFooter {
+        margin-left: 50px;
+        display: flex;
+        gap: 98px;
+        /* background-color: aqua; */
+        /* margin-left: 50px; */
+        margin: 0px;
+        padding-bottom: 52px;
+        
+    }
+    .majorFooter p:first-child{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .mobileViewfoot{
+        display: block;
+    }
+    .mobileViewfoot ul li{
+        list-style: none;
+        padding-top: 15px;
+        font-size: 14px;
+    }
 
-@media (max-width: 1200px) {}
+    .footerLogo {
+        width: 100px;
+        height: 30px;
+    }
 
-@media (max-width: 900px) {}
+    .majorFooter p {
+        padding: 10px 0px 0px 3px;
+        font-size: 12px;
+    }
 
-@media (max-width: 600px) {}
+    .sideOne {
+        float: left;
+        padding-right: 146px;
+        height: 284px;
+    }
+
+    .sideOne p {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .sideOne ul {
+        padding-top: 10px;
+    }
+
+    .sideTwo ul {
+        padding-top: 10px;
+    }
+
+    .sideOne ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+    }
+
+    .sideOne ul li {
+        padding-top: 10px;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .sideTwo p {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .sideTwo ul li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+    }
+
+    .sideTwo ul li {
+        padding-top: 10px;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .socialmedia {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .socialmedia ul {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .socialmedia ul li {
+        list-style: none;
+        width: 33px;
+        height: 33px;
+        padding-right: 11px;
+        padding-left: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f6f7fb;
+        border-radius: 50%;
+        box-sizing: border-box;
+    }
+
+}
 
 @media (max-width: 450px) {
     .footer {
