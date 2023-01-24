@@ -12,7 +12,6 @@ body {
     height: 46px;
     display: flex;
     justify-content: space-between;
-    /* background-color: aqua; */
 }
 
 .webLogo {
@@ -41,6 +40,38 @@ body {
 }
 
 
+@media (max-width: 1200px) {
+
+    .header {
+        width: 1076px;
+        margin: 46px 74px;
+        /* background-color: aqua; */
+    }
+    
+    .webLogo {
+        display: block;
+    }
+    
+    .header nav {
+        margin-right: 55px;
+    }
+    
+}
+
+@media (max-width: 900px){
+    .header {
+        width: 784px;
+        margin: 46px 89px;
+    }
+    
+    .webLogo {
+        display: block;
+    }
+    
+    .header nav {
+        margin-right: 55px;
+    }  
+}
 @media (max-width: 600px) {
     .header {
         width: 600px;

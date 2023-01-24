@@ -98,7 +98,19 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 1200px){
 
+    .footer {
+        grid-template-columns: 570px 323px 330px;
+    }
+}
+
+@media (max-width: 900px){
+
+    .footer {
+        grid-template-columns: 306px 262px 330px;
+    }
+}
 
 @media (max-width: 600px) {
     .footer {
