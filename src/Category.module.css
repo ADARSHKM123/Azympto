@@ -1,6 +1,12 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
+.sideHeader p:first-child{
+    display: none;
+}
+.mobileCategory{
+    display: none;
+}
 .sideHeader p{
     width: 1300px;
     margin: 0 auto;
@@ -41,4 +47,83 @@ body {
  align-items: center;
  justify-content: center;
  padding-top: 10px;
+}
+
+
+@media (max-width: 1920px){}
+@media (max-width: 1750px){}
+@media (max-width: 1200px){}
+@media (max-width: 900px){}
+@media (max-width: 600px){}
+@media (max-width: 450px){
+    .sideHeader p:first-child{
+        display: inline-block;
+        color: #2975FF;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 25px;
+        padding: 100px 0px 0px 106px;
+        letter-spacing: 1px;
+        line-height: 7px;
+    }
+    .mobileCategory{
+        display: block;
+ 
+    }
+    .mobileCategoryCards{
+   display: flex;
+   padding-top: 20px;
+    }
+    .sideHeader p{
+        width: 293px;
+        margin: 0 auto;
+        text-align: left;
+        padding-left: 91px;
+        padding-top: 15px;
+        font-size: 38px;
+        font-weight: 700;
+    }
+    .categoryList{
+        display: none;
+    }
+    .categoryCard{
+        margin: 0 auto;
+        background: #F6F7FB;
+        margin-top: 27px;
+        border-radius: 24px;
+        width: 151px;
+        height: 140px;
+    }
+    .scrolling{
+        display: flex;
+        width: 450px;
+        margin-left: 133px;
+        padding-top: 67px;
+        width: 5px;
+        gap: 34px;
+    }
+    .scrolling img{
+        border-radius: 50%;
+        padding: 16px 19px;
+        background: #F6F7FB;
+        width: 20px;
+        height: 20px;
+    }
+    /* .categoryCard img{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding-top: 25px;
+        text-align: center;
+    } */
+    /* .categoryCard span{
+     display: inline-block;
+     align-items: center;
+     justify-content: center;
+     padding-top: 10px;
+    } */
+    
 }

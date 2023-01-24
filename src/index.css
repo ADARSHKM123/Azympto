@@ -58,3 +58,14 @@ body {
 
 
 
+@media (max-width: 1920px){}
+@media (max-width: 1750px){}
+@media (max-width: 1200px){}
+@media (max-width: 900px){}
+@media (max-width: 600px){}
+@media (max-width: 450px){
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+}

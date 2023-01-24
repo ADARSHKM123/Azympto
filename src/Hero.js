@@ -9,6 +9,7 @@ function Hero() {
         <Header/>
         <div className={classes.mainHero}>
         <div className={classes.heroLeft}>
+         <p>- Skincare Products</p>
          <p>We Offer the Best <br/> Products for your Skin</p>
          <div className={classes.btn}>
          <button>Shop Now</button>

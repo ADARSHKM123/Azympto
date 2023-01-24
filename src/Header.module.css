@@ -1,5 +1,10 @@
-body {
+
+
+ body {
     font-family: "Montserrat", sans-serif;
+}
+.mobViewHead{
+    display: none;
 }
 .header {
     width: 1300px;
@@ -8,6 +13,9 @@ body {
     display: flex;
     justify-content: space-between;
     /* background-color: aqua; */
+}
+.webLogo{
+    display: block;
 }
 .header nav{
     margin-right: 55px;
@@ -27,4 +35,59 @@ body {
     text-align: center;
     padding: 0px 15px;
     text-decoration: none;
+}
+
+@media (max-width: 1920px){}
+@media (max-width: 1750px){}
+@media (max-width: 1200px){}
+@media (max-width: 900px){}
+@media (max-width: 600px){}
+@media (max-width: 450px){
+    .header {
+        width: 450px;
+        margin: 41px 20px;
+        height: 46px;
+        display: block;
+        /* justify-content: space-between; */
+        /* background-color: aqua; */
+    }
+    .mobViewHead{
+        width: 254px;
+    display: flex;
+    gap: 97px;
+        align-items: center;
+    }
+    .hamburger{
+        background: #F6F7FB;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .webLogo{
+        display: none;
+    }
+    .header nav{
+        /* margin-right: 55px; */
+        display: none;
+    }
+    .header nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    
+    .header nav a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0px 15px;
+        text-decoration: none;
+    }
+    
+}
+
+@media (max-width: 450px){
+
 }

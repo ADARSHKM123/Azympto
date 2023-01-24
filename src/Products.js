@@ -69,6 +69,10 @@ const OurProducts = [
 function Products() {
   return (
     <div className={classes.sideHeader}>
+        <div className={classes.sideHeaderMobile}>
+         <p>- Our Products</p>
+         <p className={classes.sideHeadMob}>Explore our Products</p>
+        </div>
          <p className={classes.sideHead}>New Arrivals</p>
          {/* <div className={classes.productCads}>
              

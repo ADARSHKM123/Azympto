@@ -9,6 +9,7 @@ function Features() {
   return (
     <div className={classes.feature}>
      <div className={classes.heading} >
+         <p>-Why Us</p>
          <p>Why People Choose Us</p>
      </div>
      <div className={classes.mainSections}>

@@ -7,6 +7,9 @@
    text-align: center;
    justify-content: center;
 }
+.heading p:first-child{
+    display: none;
+}
 .heading p{
     font-weight: 700;
     font-size: 27px;
@@ -21,10 +24,6 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 .sections{
-    /* background-color: aquamarine; */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     padding: 20px;
 }
 .sections img{
@@ -47,12 +46,83 @@
 }
 .description {
     width: 218px;
-    /* display: flex; */
     padding-top: 20px;
     padding-left: 32px;
-    /* align-items: center; */
     justify-content: c;
     margin: 0 auto;
     text-align: center;
     line-height: 1.5em;
+}
+
+
+@media (max-width: 1920px){}
+@media (max-width: 1750px){}
+@media (max-width: 1200px){}
+@media (max-width: 900px){}
+@media (max-width: 600px){}
+@media (max-width: 450px){
+    .heading{
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+     }
+     .heading p:first-child{
+        display: inline-block;
+        color: #2975FF;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 25px;
+        padding: 29px 0px 0px 69px; 
+        letter-spacing: 1px;
+        line-height: 7px;
+     }
+     .heading p{
+        font-weight: 700;
+        font-size: 38px;
+        width: 235px;
+        padding-left: 79px;
+        line-height: 56px;
+     }
+     .mainSections{
+        width: 408px;
+        margin: 0 auto;
+        padding-top: 32px;
+        padding-bottom: 9px;
+        display: inline-block;
+         gap: 20px;
+         grid-template-columns: 0fr 0fr 0fr;
+     }
+     .sections{
+        padding-right: 49px;
+        padding-bottom: 100px;
+     }
+     .sections img{
+         display: block;
+         margin: 0 auto;
+         width: 30px;
+         height: 30px;
+         padding: 9px;
+         background: #f6f7fb;
+         border-radius: 50%;
+     }
+     .sections p{
+        width: 132px;
+        display: block;
+        font-weight: 600;
+        padding: 27px 0px 5px 28px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+     }
+     .description {
+         width: 218px;
+         padding-top: 20px;
+         padding-left: 32px;
+         justify-content: c;
+         margin: 0 auto;
+         text-align: center;
+         line-height: 1.5em;
+     }
+     
 }
